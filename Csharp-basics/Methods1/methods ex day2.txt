@@ -1,0 +1,127 @@
+﻿
+
+
+using System;
+-----------------------------------------methods example----------------------
+namespace Methods1
+{
+    //<Access_Specifier> <Return_Type> Method_Name(<Parameters>) { // Statements to Execute
+    class Eg1OfMethod
+    {
+        //Method with void return type
+        void Welcome()
+        {
+            Console.WriteLine("Good Morning !!");
+        }
+        //Method with return types
+        //Method with string return types
+        string GetName()
+        {
+            return "Chandana";
+        }
+        // Method with int return types
+        int GetAge()
+        {
+            return 22;
+        }
+
+        //Method with character return types
+        Char Surname()
+        {
+            return 'G';
+        }
+        static void Main()
+        {
+            //obj creation
+            // classname objname = new classname
+            Eg1OfMethod intro = new Eg1OfMethod();
+            intro.Welcome();
+            Console.WriteLine("Name is {0}", intro.GetName());
+            Console.WriteLine("Age is {0}", intro.GetAge());
+            Console.WriteLine("Surname is {0}", intro.Surname());
+
+            Console.Read();
+        }
+    }
+
+
+}
+
+----------------------methods----------------
+
+using System;
+namespace Methods1
+{
+    //method with parametres
+    class MethodwithParameter
+    {
+        void DisplayUserDetails(string cn, string ci, string gend, string mail)
+        {
+            Console.WriteLine("name:{0}||city:{1}||gender:{2}||email:{3}", cn, ci, gend, mail);
+        }
+        int Total(int[] mar)
+        {
+            //sum is locat to method
+            int sum = 0;
+            for(int i = 0;i < mar.Length;i++)
+            {
+                sum = sum + mar[i];
+            }
+            return sum;
+        }
+        static void Main()
+        {
+            string Cname, City, gender, email;
+            int[] marks = new int[3] { 89, 90, 67 };
+            Console.WriteLine("Enter Cname");
+            Cname = Console.ReadLine();
+            Console.WriteLine("Enter City");
+            City = Console.ReadLine();
+            Console.WriteLine("Enter Gnder");
+            gender = Console.ReadLine();
+            Console.WriteLine("Enter Email");
+            email = Console.ReadLine();
+            MethodwithParameter eg = new MethodwithParameter();
+            eg.DisplayUserDetails(Cname, City, gender, email);
+            Console.WriteLine("Sum of marks is:{0}", eg.Total(marks));
+            Console.Read();
+        }
+    }
+
+
+}
+
+--------------MethodwithParameterByvalueByRef.cs-----------------
+
+using System;
+
+namespace Methods1
+{
+    class MethodwithParameterByvalueByRef
+    {
+        void ByValue(string p)
+        {
+            p = "000000000";
+            Console.WriteLine("VAlue Changed inside method:p:{0}", p);
+
+        }
+        void ByReference(ref string ph)
+        {
+            ph = "111111111";
+            Console.WriteLine("VAlue Changed inside method:ph:{0}", ph);
+        }
+        static void Main()
+        {
+            string phno = "995784612";
+            MethodwithParameterByvalueByRef mobj = new MethodwithParameterByvalueByRef();
+            Console.WriteLine("Before calling byvalue method:phn:{0}", phno);
+            mobj.ByValue(phno);
+            Console.WriteLine("after calling byvalue method:phn:{0}", phno);
+            Console.WriteLine("---------");
+            Console.WriteLine("Before calling byreference method:phn:{0}", phno);
+            mobj.ByReference(ref phno);
+            Console.WriteLine("after calling byvalue method:phn:{0}", phno);
+            Console.Read();
+        }
+    }
+}

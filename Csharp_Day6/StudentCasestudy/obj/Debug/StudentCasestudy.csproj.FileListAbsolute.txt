@@ -1,0 +1,7 @@
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\Csharp_Day6\StudentCasestudy\bin\Debug\StudentCasestudy.exe.config
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\Csharp_Day6\StudentCasestudy\bin\Debug\StudentCasestudy.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\Csharp_Day6\StudentCasestudy\bin\Debug\StudentCasestudy.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\Csharp_Day6\StudentCasestudy\obj\Debug\StudentCasestudy.csprojAssemblyReference.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\Csharp_Day6\StudentCasestudy\obj\Debug\StudentCasestudy.csproj.CoreCompileInputs.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\Csharp_Day6\StudentCasestudy\obj\Debug\StudentCasestudy.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\Csharp_Day6\StudentCasestudy\obj\Debug\StudentCasestudy.pdb

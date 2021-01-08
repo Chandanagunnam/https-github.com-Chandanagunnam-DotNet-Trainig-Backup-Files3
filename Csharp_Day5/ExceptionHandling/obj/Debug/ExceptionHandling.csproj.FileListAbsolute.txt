@@ -1,0 +1,7 @@
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\ExceptionHandling\bin\Debug\ExceptionHandling.exe.config
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\ExceptionHandling\bin\Debug\ExceptionHandling.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\ExceptionHandling\bin\Debug\ExceptionHandling.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\ExceptionHandling\obj\Debug\ExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\ExceptionHandling\obj\Debug\ExceptionHandling.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\ExceptionHandling\obj\Debug\ExceptionHandling.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\ExceptionHandling\obj\Debug\ExceptionHandling.csprojAssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day1\frstprojapplication\basiceg\bin\Debug\basiceg.exe.config
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day1\frstprojapplication\basiceg\bin\Debug\basiceg.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day1\frstprojapplication\basiceg\bin\Debug\basiceg.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day1\frstprojapplication\basiceg\obj\Debug\basiceg.csprojAssemblyReference.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day1\frstprojapplication\basiceg\obj\Debug\basiceg.csproj.CoreCompileInputs.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day1\frstprojapplication\basiceg\obj\Debug\basiceg.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day1\frstprojapplication\basiceg\obj\Debug\basiceg.pdb

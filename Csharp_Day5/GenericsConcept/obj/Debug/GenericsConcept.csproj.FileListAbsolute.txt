@@ -1,0 +1,7 @@
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\GenericsConcept\bin\Debug\GenericsConcept.exe.config
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\GenericsConcept\bin\Debug\GenericsConcept.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\GenericsConcept\bin\Debug\GenericsConcept.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\GenericsConcept\obj\Debug\GenericsConcept.csprojAssemblyReference.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\GenericsConcept\obj\Debug\GenericsConcept.csproj.CoreCompileInputs.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\GenericsConcept\obj\Debug\GenericsConcept.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\GenericsConcept\obj\Debug\GenericsConcept.pdb
