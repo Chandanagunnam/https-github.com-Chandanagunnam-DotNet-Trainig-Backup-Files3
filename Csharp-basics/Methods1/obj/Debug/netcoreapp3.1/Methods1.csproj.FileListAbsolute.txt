@@ -1,0 +1,13 @@
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\Methods1\obj\Debug\netcoreapp3.1\Methods1.AssemblyInfoInputs.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\Methods1\obj\Debug\netcoreapp3.1\Methods1.AssemblyInfo.cs
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\Methods1\obj\Debug\netcoreapp3.1\Methods1.csproj.CoreCompileInputs.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\Methods1\bin\Debug\netcoreapp3.1\Methods1.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\Methods1\bin\Debug\netcoreapp3.1\Methods1.deps.json
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\Methods1\bin\Debug\netcoreapp3.1\Methods1.runtimeconfig.json
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\Methods1\bin\Debug\netcoreapp3.1\Methods1.runtimeconfig.dev.json
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\Methods1\bin\Debug\netcoreapp3.1\Methods1.dll
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\Methods1\bin\Debug\netcoreapp3.1\Methods1.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\Methods1\obj\Debug\netcoreapp3.1\Methods1.dll
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\Methods1\obj\Debug\netcoreapp3.1\Methods1.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\Methods1\obj\Debug\netcoreapp3.1\Methods1.genruntimeconfig.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\Methods1\obj\Debug\netcoreapp3.1\Methods1.csprojAssemblyReference.cache

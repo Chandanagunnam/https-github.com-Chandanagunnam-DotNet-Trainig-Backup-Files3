@@ -1,0 +1,7 @@
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\PrjSecondApplication\bin\Debug\Csharp_Basics.exe.config
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\PrjSecondApplication\bin\Debug\Csharp_Basics.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\PrjSecondApplication\bin\Debug\Csharp_Basics.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\PrjSecondApplication\obj\Debug\Csharp_Basics.csproj.CoreCompileInputs.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\PrjSecondApplication\obj\Debug\Csharp_Basics.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\PrjSecondApplication\obj\Debug\Csharp_Basics.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day2\Csharp-basics\PrjSecondApplication\obj\Debug\Csharp_Basics.csprojAssemblyReference.cache

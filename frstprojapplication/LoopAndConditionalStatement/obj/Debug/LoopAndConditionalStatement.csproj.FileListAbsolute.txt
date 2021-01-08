@@ -1,0 +1,7 @@
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day1\frstprojapplication\LoopAndConditionalStatement\bin\Debug\LoopAndConditionalStatement.exe.config
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day1\frstprojapplication\LoopAndConditionalStatement\bin\Debug\LoopAndConditionalStatement.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day1\frstprojapplication\LoopAndConditionalStatement\bin\Debug\LoopAndConditionalStatement.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day1\frstprojapplication\LoopAndConditionalStatement\obj\Debug\LoopAndConditionalStatement.csprojAssemblyReference.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day1\frstprojapplication\LoopAndConditionalStatement\obj\Debug\LoopAndConditionalStatement.csproj.CoreCompileInputs.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day1\frstprojapplication\LoopAndConditionalStatement\obj\Debug\LoopAndConditionalStatement.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day1\frstprojapplication\LoopAndConditionalStatement\obj\Debug\LoopAndConditionalStatement.pdb

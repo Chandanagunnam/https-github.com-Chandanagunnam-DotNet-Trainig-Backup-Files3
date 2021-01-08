@@ -1,0 +1,223 @@
+﻿--enumeration--
+using System;
+
+namespace Csharp_Basics
+    //enum can be declared inside or outside the class
+{
+    enum Feedback
+    {
+        poor, good, verygood, excellent
+    }
+    enum Months
+    {
+        Jan = 1,Feb,Mar,Apr,May
+    }
+    class EnumerationExample
+    {
+        static void Main()
+        {
+            String EmpName = "Suriya";
+            Console.WriteLine("Rating for {0} is {1}", EmpName, Feedback.good);
+            //value stored in good i.e. 1 (to get value we convert)
+            Console.WriteLine("Rating for {0} is {1}", EmpName, (int)Feedback.good);
+            Console.WriteLine("Birthmonth for {0} is {1}", EmpName, Months.Jan);
+            Console.WriteLine("Birthmonth for {0} is {1} i,e {2}", EmpName, Convert.ToInt32(Months.Mar), Months.Mar);
+            Console.Read();
+
+
+
+
+        }
+    }
+}
+-------------
+----boxing and unboxing
+using System;
+
+namespace Csharp_Basics
+{
+    class BoxingandUnBoxing
+    {
+        static void Main()
+        {
+            //converting value type to reference type--boxing
+            //value type
+            int petrol = 1;
+            //reference type
+            object oil = petrol;
+            Console.WriteLine("converting value type to reference type--boxing: {0} to {1}", petrol, oil);
+            //converting reference type to value type--unboxing
+            //reference type
+            string diesel = "15";
+            //valuetype
+            int price = Convert.ToInt32(diesel);
+            Console.WriteLine("converting reference type to value type--unboxing: {0} to {1}", diesel, price);
+            Console.Read();
+
+
+        }
+    }
+}
+----------------------------------------
+--type conversions
+using System;
+namespace Csharp_Basics
+{
+    class TypeConversions
+{
+    static void Main()
+    {
+        //implicit conversion lower to higher
+        //value type
+        int salary = 20000;
+        float f = salary;
+        double d = f;
+        Console.WriteLine("Implicit Conversion");
+        Console.WriteLine("Int:{0}|| Float:{1}|| Double:{2}", salary, f, d);
+        //Explicit Conversion
+        float amount = 100.258f;
+        int money = Convert.ToInt32(amount);
+        Console.WriteLine("Implicit Conversion");
+        Console.WriteLine("Float to int: {0} to {1}", amount, money);
+        Console.Read();
+
+
+    }
+}
+}
+--------------------------------
+--string ex--
+using System;
+
+namespace Csharp_Basics
+{
+    class StringExample
+    {
+        static void Main()
+        {
+            String firstname = "Chandana Anuja";
+            Console.WriteLine("Length of string:{0}",firstname.Length);
+            Console.WriteLine("Convert to uppercase:{0}", firstname.ToUpper());
+            Console.WriteLine("Contains:{0}", firstname.Contains("tha"));
+            Console.WriteLine("Contains:{0}", firstname.Contains("dana Anu"));
+            Console.WriteLine("Index of a:{0}", firstname.IndexOf("a"));
+            Console.WriteLine("Checks weather" 
+                + "first character starts with :{0}", firstname.StartsWith("G"));
+            Console.Read();
+
+
+
+
+
+
+
+
+        }
+    }
+}
+------------------------------------
+--array--
+using System;
+
+namespace Csharp_Basics
+{
+    class ArrayEx
+    {
+        static void Main()
+        {
+            //one dimensional Array
+            //syntx1: datatype[] arrayname = new datatype[size];
+            //syntx2: datatype[] arrayname = new datatype[size]{};
+            //new-- allocates memory
+            string[] flower = new string[4];  //0,1,2,3
+
+            flower[0] = "Lily";
+            flower[1] = "Rose";
+            flower[2] = "tulip";
+            flower[3] = "daisy";
+            Console.WriteLine(flower[0]);
+            for (int i = 0; i < flower.Length; i++)
+            {
+                Console.WriteLine("index {0}: flower{0} is {1}", i, flower[i]);
+            }
+            ////taking size and getting marks from readline--- ????
+            //int size = 4
+            Console.WriteLine("Enter the size of marks array");
+            int size = Convert.ToInt32(Console.ReadLine());
+            int[] marks = new int[size];
+            for(int i =0;i < (size);i++)
+            {
+                Console.WriteLine("Enter marks");
+                marks[i] = Convert.ToInt32(Console.ReadLine());
+
+            }
+
+            //example---array values and size from user and displaying the same
+            Console.WriteLine("Enter the length of array for animals array");
+            int n = Convert.ToInt32(Console.ReadLine());
+            string[] Animals = new string[n];
+            //for (int i = 0; i < n-1; i++)
+            for (int i = 0; i < Animals.Length; i++)
+            {
+                Console.WriteLine("Enter animal names for {0}",i);
+                Animals[i] = Console.ReadLine();
+             
+            }
+            Console.WriteLine("Displaying all animals");
+            for (int i = 0; i < Animals.Length; i++)
+            {
+                Console.WriteLine(Animals[i]);
+            }
+           Console.Read();
+        }
+    }
+}
+
+        
+
+
+
+    
+----------------------------
+--2d array--
+using System;
+
+namespace Csharp_Basics
+{
+    class TwoDArray
+    {
+        static void Main()
+        {
+            Console.WriteLine("Enter rows");
+            int row = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter column");
+            int column = Convert.ToInt32(Console.ReadLine());
+            int[,] Matrix = new int[row, column];
+            for (int i = 0; i < row; i++)
+            {
+                for (int j = 0; j < column; j++)
+                {
+                    Console.WriteLine("Enter[{0}{1}]", i, j);
+                    Matrix[i, j] = Convert.ToInt32(Console.ReadLine());
+                }
+            }
+                for (int i = 0; i < row; i++)
+                {
+                    for (int j = 0; j < column; j++)
+                    {
+
+                        Console.Write(Matrix[i, j]);
+                        Console.Write(" ");
+                    }
+                    Console.WriteLine();
+
+
+                }
+                Console.Read();
+            }
+
+        }
+    
+}
+---------------------------
+
