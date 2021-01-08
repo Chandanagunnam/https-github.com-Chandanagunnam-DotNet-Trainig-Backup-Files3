@@ -1,0 +1,7 @@
+C:\Users\rajes\source\repos\PrjCsharpDay3\class_objects\bin\Debug\class_objects.exe.config
+C:\Users\rajes\source\repos\PrjCsharpDay3\class_objects\bin\Debug\class_objects.exe
+C:\Users\rajes\source\repos\PrjCsharpDay3\class_objects\bin\Debug\class_objects.pdb
+C:\Users\rajes\source\repos\PrjCsharpDay3\class_objects\obj\Debug\class_objects.csproj.CoreCompileInputs.cache
+C:\Users\rajes\source\repos\PrjCsharpDay3\class_objects\obj\Debug\class_objects.exe
+C:\Users\rajes\source\repos\PrjCsharpDay3\class_objects\obj\Debug\class_objects.pdb
+C:\Users\rajes\source\repos\PrjCsharpDay3\class_objects\obj\Debug\class_objects.csprojAssemblyReference.cache

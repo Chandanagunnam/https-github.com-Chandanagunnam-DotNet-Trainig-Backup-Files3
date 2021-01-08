@@ -1,0 +1,14 @@
+C:\Users\rajes\source\repos\PrjCsharpDay3\Methods\obj\Debug\Methods.csprojAssemblyReference.cache
+C:\Users\rajes\source\repos\PrjCsharpDay3\Methods\obj\Debug\Methods.csproj.CoreCompileInputs.cache
+C:\Users\rajes\source\repos\PrjCsharpDay3\Methods\bin\Debug\Methods.exe.config
+C:\Users\rajes\source\repos\PrjCsharpDay3\Methods\bin\Debug\Methods.exe
+C:\Users\rajes\source\repos\PrjCsharpDay3\Methods\bin\Debug\Methods.pdb
+C:\Users\rajes\source\repos\PrjCsharpDay3\Methods\obj\Debug\Methods.exe
+C:\Users\rajes\source\repos\PrjCsharpDay3\Methods\obj\Debug\Methods.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day3\PrjCsharpDay3\Methods\bin\Debug\Methods.exe.config
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day3\PrjCsharpDay3\Methods\bin\Debug\Methods.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day3\PrjCsharpDay3\Methods\bin\Debug\Methods.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day3\PrjCsharpDay3\Methods\obj\Debug\Methods.csprojAssemblyReference.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day3\PrjCsharpDay3\Methods\obj\Debug\Methods.csproj.CoreCompileInputs.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day3\PrjCsharpDay3\Methods\obj\Debug\Methods.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day3\PrjCsharpDay3\Methods\obj\Debug\Methods.pdb
