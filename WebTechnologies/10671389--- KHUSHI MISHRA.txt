@@ -1,0 +1,386 @@
+Khushi Mishra - 10671389
+------------------------------MINI PROJECT 2---------------------------------------------------------
+-------------------------------------------PHONEBOOK APP-------------------------------------------
+================================================================================================
+----------------------------------contact.component.ts-----------------------------------------------
+import { Component, OnInit } from '@angular/core';
+import { contact } from 'src/app/Model/contact';
+import { ContactsService } from 'src/app/services/contacts.service';
+import { Router } from '@angular/router';
+
+
+@Component({
+  selector: 'app-contact',
+  templateUrl: './contact.component.html',
+  styleUrls: ['./contact.component.css']
+})
+export class ContactComponent implements OnInit {
+  contacts: contact[]=[];
+  searchbox: string= "";
+  forLoop: string = "let contact of contacts";
+  // title = 'angularpopup';
+  // showModal: boolean;
+  // submitted = false;
+  // showDetails: boolean;
+  // searchKey : string;
+  // searchText : string;
+  
+ 
+  constructor(private contactService: ContactsService,  private _router: Router) {
+    
+    //this.contacts = new contact();
+    this.contacts= this.contactService.getContacts();
+
+  }
+  // show()
+  // {
+  //   this.showModal = true;
+
+  // }
+  
+  // hide()
+  // {
+  //   this.showModal = false;
+  // }
+  
+  
+  addContacts() {
+    this._router.navigate(['add-contac']);
+  }
+  deleteDetails(value:contact){
+
+    this.contactService.delete(value);
+  }
+  
+//     onClose() 
+// {
+
+// }
+// onSortbyName()
+//     {
+//       this.contacts.sort((a, b) => (a.firstname < b.firstname ? -1 : 1));
+//     }
+// onSortbyNumber()
+// {
+//   this.contacts.sort((a, b) => (a.mobile < b.mobile ? -1 : 1));
+// }
+
+//   // editDetails(mobile){
+//   //   this._router.navigate(['edit-user',mobile]);
+
+//   // }
+
+
+
+ 
+
+  ngOnInit(): void {
+   this.contacts= this.contactService.getContacts();
+
+  }
+}
+
+  
+
+
+
+
+===================================================================================================
+--------------------------------------------------contact.component.html-----------------------------------
+<p style = "background-color:rgb(113, 160, 95)">Contact list!</p>
+<div class= "main">
+    <div class="heading">
+        <i class="fa fa-address-book" style="font-size:25px"><b> Phone Book App </b></i>
+      </div>
+      <div class="nav-wrapper">
+        <p class="contacts">Contacts</p>
+        <button (click)="addContacts()" class="btn btn-primary add"> +Add Contact</button>
+      </div>
+      <div class="search">
+        <input type="text" style="width:100%;" placeholder="Search for contact by last name..."  [(ngModel)]="searchbox">
+    </div>
+    <div>
+       
+                <table class="table" border="4" style="margin-left: 2%;" cellspacing="10" cellpadding="10">  
+                    <tr *ngFor="let i of contacts | search: searchbox" class="contact">
+                        <td align="center">{{i.firstname}}</td>
+                        <td align="center">{{i.lastname}}</td>
+                        <td align="center">{{i.mobile}}</td>
+                        <td align="center"><button class="btn btn-danger" (click)="deleteDetails(i)" (click)="ngOnInit()"><b>X</b></button></td>
+
+                    </tr>
+                    
+                   
+                
+            </table>
+
+
+===========================================================================================
+---------------------------add-contact.component.ts---------
+import { Component, OnInit } from '@angular/core';
+//import { FormGroup, FormBuilder, Validators} from '@angular/forms';
+import { ContactsService } from 'src/app/services/contacts.service';
+
+
+@Component({
+  selector: 'app-add-contac',
+  templateUrl: './add-contac.component.html',
+  styleUrls: ['./add-contac.component.css']
+})
+export class AddContacComponent implements OnInit {
+
+  //addForm:FormGroup;
+  constructor( private _contactService: ContactsService) { }
+
+  ngOnInit(): void {
+    // this.addForm=this.formBuilder.group({
+    
+    //   firstName:["",Validators.required],
+    //   lastName:["",Validators.required],
+    //   mobile:["", Validators.required]
+    // })
+  }
+  // onSubmit(form){
+  //    this.contactService.addContacts(form.value).subscribe(data =>{
+  //     console.log(data)
+  //      alert("user added successfully");
+  //    });
+  // }
+  addContacts(fname,lname,num){
+    this._contactService.addContacts(fname,lname,num);
+  }
+
+
+}
+================================================================
+----------------------------------------add-contact.component.html-------------------------------
+<p>add-contact works!</p>
+<div style="margin-left: 5%;">
+    <form>
+        <table>
+            <tr>
+                <th>
+                    First Name
+                </th>
+                <td>
+                    <input type = "text" #firstname pattern="[a-zA-Z]" required/>
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    Last Name
+                </th>
+                <td>
+                    <input type = "text" #lastname pattern="[a-zA-Z]" required/>
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    Mobile No.
+                </th>
+                <td>
+                    <input type = "number" #mobile pattern="[0-9]{10}" required/>
+                </td>
+            </tr>
+
+            
+           
+            <tr>
+                <td colspan="1">
+                    <button type='button' class="btn btn-success" (click)="addContacts(firstname.value,lastname.value,mobile.value)">Add</button>
+                </td>
+                <td colspan="1">
+                    <button type='button' class="btn btn-warning" routerLink="">Go back</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+=============================================================================================
+----------------------contact.service.ts------------------------------------
+import { Injectable } from '@angular/core';
+//import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { contact } from 'src/app/Model/contact';
+@Injectable({
+  providedIn: 'root'
+})
+export class ContactsService {
+  constructor() { }
+
+  contacts: contact[]=[
+    { firstname: 'khushi', lastname:'Mishra', mobile:'9102893456'},
+    { firstname: 'Yash', lastname: 'Mishra', mobile: '8907653412'},
+    { firstname: 'Santosh', lastname: 'Mishra', mobile: '7890056734'}
+    
+  ];
+  ContactsService: any;
+getContacts():contact[]{
+  return this.contacts;
+}
+delete(value: contact){
+  
+
+  let index = this.contacts.indexOf(value);
+  this.contacts.splice(index, 1);
+}
+// addContacts(fisrtName:string,lastName:string,Mobile:string) { 
+//   let newContact= { firstname: fisrtName, lastname:lastName, mobile: Mobile };
+//    return this.contacts.push(newContact);
+//  }
+// addContacts(firstName: string, lastName: string, mobile: string) {
+//   this.ContactsService.push(firstName, lastName, mobile);
+// }
+
+addContacts(firstName,lastName,mobileno){
+  this.contacts.push({firstname:firstName,lastname:lastName,mobile:mobileno});
+  alert("New Contact Added Successfully");
+  
+  console.log("added")
+}
+}
+
+
+
+=========================================================================================
+----------------------search.pipes.ts----------------------------------
+import { Pipe, PipeTransform } from '@angular/core';
+import { contact } from 'src/app/model/contact';
+
+@Pipe({
+  name: 'search'
+})
+export class SearchPipe implements PipeTransform {
+
+  transform(value: any, input: string) {
+    if (input) {
+      input = input.toLowerCase();
+      return value.filter(function (el: any) {
+          return el.lastname.toLowerCase().indexOf(input) > -1;
+      })
+  }
+  return value;
+    }
+
+}
+=========================================================================================
+---------------------------------app-routing.module.ts-------------------
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { ContactComponent } from './components/contact/contact.component';
+import { AddContacComponent } from './components/add-contac/add-contac.component';
+//import { EditUserComponent} from './components/edit-user/edit-user.component';
+
+const routes: Routes = [
+  { path: "contact", component:ContactComponent},
+  { path: "", component:ContactComponent},
+  { path: "add-contac", component:AddContacComponent},
+  //{ path: "edit-user", component:EditUserComponent}
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+==============================================================================================
+---------------------app.component.html------------------------------
+<nav class="navbar navbar-inverse">
+ 
+  <ul class="nav nav-tabs">
+      <li ><a routerLink="">Contact</a></li>
+  
+    </ul>
+  </nav>
+  <router-outlet></router-outlet>
+============================================================================
+------------------------------app.component.ts-------------------
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'PhoneBookApp';
+}
+==============================================================================
+-----------------------app.module.ts----------------------------------
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { ContactComponent } from './components/contact/contact.component';
+
+import { AddContacComponent } from './components/add-contac/add-contac.component';
+//import { EditUserComponent } from './components/edit-user/edit-user.component';
+import {Ng2SearchPipeModule} from 'ng2-search-filter';
+import { SearchPipe } from './pipes/search.pipe';
+
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    ContactComponent,
+    //ReactiveformComponent,
+    AddContacComponent,
+    SearchPipe,
+    //EditUserComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    Ng2SearchPipeModule
+    
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+================================================================================
+------------------contact.ts-------------------------------
+export class contact{
+    firstname: string;
+    lastname: string;
+    mobile: string;
+}
+========================================================================
+-----------contact.component.css----------------------------
+.main{
+    background-color: #F0F0F0;
+    text-align: center;
+    margin-left: 30%;
+    width: 40%;
+    padding: 2%;
+    
+}
+.heading{
+    padding: 10px;
+    color:red;
+}
+
+.subheading{
+    padding: 5% ;
+    text-align: left;
+    vertical-align: middle;
+    position: relative;
+}
+ #mySearch {
+    padding: 10px;
+    border: 1px solid #595959;
+    margin: 3%;
+  } 
+#contact{
+    background-color:#b3fff5;
+    width:75%;
+    display: inline-block;
+    text-align: left;
+  }
+=====================================================================================
+=====================================================================END==========================================================================
