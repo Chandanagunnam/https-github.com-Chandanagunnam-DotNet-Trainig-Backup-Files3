@@ -1,0 +1,7 @@
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\InheritanceP2\obj\Debug\InheritanceP2.csprojAssemblyReference.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\InheritanceP2\obj\Debug\InheritanceP2.csproj.CoreCompileInputs.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\InheritanceP2\bin\Debug\InheritanceP2.exe.config
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\InheritanceP2\bin\Debug\InheritanceP2.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\InheritanceP2\bin\Debug\InheritanceP2.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\InheritanceP2\obj\Debug\InheritanceP2.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\InheritanceP2\obj\Debug\InheritanceP2.pdb

@@ -1,0 +1,7 @@
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\Csharp_Day6\Non_GenericCollectionEg\bin\Debug\Non_GenericCollectionEg.exe.config
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\Csharp_Day6\Non_GenericCollectionEg\bin\Debug\Non_GenericCollectionEg.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\Csharp_Day6\Non_GenericCollectionEg\bin\Debug\Non_GenericCollectionEg.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\Csharp_Day6\Non_GenericCollectionEg\obj\Debug\Non_GenericCollectionEg.csprojAssemblyReference.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\Csharp_Day6\Non_GenericCollectionEg\obj\Debug\Non_GenericCollectionEg.csproj.CoreCompileInputs.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\Csharp_Day6\Non_GenericCollectionEg\obj\Debug\Non_GenericCollectionEg.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\Csharp_Day6\Non_GenericCollectionEg\obj\Debug\Non_GenericCollectionEg.pdb

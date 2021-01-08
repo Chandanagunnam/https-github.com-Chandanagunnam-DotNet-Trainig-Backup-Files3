@@ -1,0 +1,6 @@
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\PrivateAssembly\NormalCalculator\bin\Debug\NormalCalculator.dll
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\PrivateAssembly\NormalCalculator\bin\Debug\NormalCalculator.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\PrivateAssembly\NormalCalculator\obj\Debug\NormalCalculator.csprojAssemblyReference.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\PrivateAssembly\NormalCalculator\obj\Debug\NormalCalculator.csproj.CoreCompileInputs.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\PrivateAssembly\NormalCalculator\obj\Debug\NormalCalculator.dll
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\day6\PrivateAssembly\NormalCalculator\obj\Debug\NormalCalculator.pdb

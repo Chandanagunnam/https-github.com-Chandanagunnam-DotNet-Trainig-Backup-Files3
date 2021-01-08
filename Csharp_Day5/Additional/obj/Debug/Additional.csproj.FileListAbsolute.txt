@@ -1,0 +1,7 @@
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\Additional\bin\Debug\Additional.exe.config
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\Additional\bin\Debug\Additional.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\Additional\bin\Debug\Additional.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\Additional\obj\Debug\Additional.csproj.CoreCompileInputs.cache
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\Additional\obj\Debug\Additional.exe
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\Additional\obj\Debug\Additional.pdb
+C:\Users\rajes\Desktop\chandana-GET-LTI\c#\c#day5\Csharp_Day5\Additional\obj\Debug\Additional.csprojAssemblyReference.cache
